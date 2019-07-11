@@ -17,7 +17,7 @@ npm install buttercms --save
 Butter can also be included directly in HTML:
 
 ```html
-<script src="https://cdnjs.buttercms.com/buttercms-1.1.1.min.js"></script>
+<script src="https://cdnjs.buttercms.com/buttercms-1.1.4.min.js"></script>
 ```
 
 ## Overview
@@ -32,6 +32,13 @@ Using ES6:
 
 ```js
 import Butter from 'buttercms';
+const butter = Butter('api_token_567abe');
+```
+
+Using TypeScript:
+
+```js
+import Butter = require('buttercms');
 const butter = Butter('api_token_567abe');
 ```
 
